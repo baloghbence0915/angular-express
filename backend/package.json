@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node ../dist/backend",
+    "serve": "nodemon --exec \"npm run start\" --watch src --watch ../common --ext *"
+  },
+  "author": "Bence Balogh",
+  "license": "ISC",
+  "private": true
+}
