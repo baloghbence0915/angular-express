@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { shared_var } from '@common';
+
 
 @Component({
   selector: 'app-root',
@@ -8,5 +8,5 @@ import { shared_var } from '@common';
 })
 export class AppComponent {
   title = 'angular-app';
-  test = shared_var;
+
 }
